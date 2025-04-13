@@ -29,8 +29,8 @@ A Flask web application demonstrating CRUD operations for items stored in a **My
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd <repository-directory>
+    git clone https://github.com/Shaunm1724/flask-ws.git
+    cd flask-ws
     ```
 
 2.  **Set up MySQL:**
@@ -53,8 +53,6 @@ A Flask web application demonstrating CRUD operations for items stored in a **My
     *   Edit the `.env` file:
         *   Set `WEATHER_API_KEY` with your key from WeatherAPI.com.
         *   **Update `DATABASE_URL`** with your MySQL connection string, using the database name, user, and password you set up in step 2. The format is `mysql+mysqlconnector://<user>:<password>@<host>/<database_name>`. Example: `mysql+mysqlconnector://flaskuser:your_password@localhost/flask_crud_db`
-        *   Set a strong `FLASK_SECRET_KEY`.
-
 ## Running the Application
 
 1.  **Start the Flask development server:**
@@ -70,7 +68,7 @@ A Flask web application demonstrating CRUD operations for items stored in a **My
 2.  **Access the application:**
     Open `http://127.0.0.1:5000` in your browser.
 
-The application runs in debug mode. **Do not use debug mode in production.**
+<!-- The application runs in debug mode. **Do not use debug mode in production.** -->
 
 <!-- ## API Endpoints
 (...keep existing API endpoint descriptions...)
